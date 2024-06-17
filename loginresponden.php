@@ -83,7 +83,7 @@
                     window.location.href = 'responden_tendik_form.php?bio=tendik';
                     break;
                 case "Orang Tua":
-                    window.location.href = 'responden_ortu_form.php?bio=ortu';
+                    window.location.href = 'responden_ortu_form.php?bio=orang tua';
                     break;
                 case "Alumni":
                     window.location.href = 'responden_alumni_form.php?bio=alumni';

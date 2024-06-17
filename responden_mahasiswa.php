@@ -113,7 +113,7 @@
                       <td>'.$row['responden_hp'].'</td>
                       <td>'.$row['tahun_masuk'].'</td>
                       <td>
-
+                        <a title="View" href="responden_ortu_form.php?act=view&id=' . $row['responden_mahasiswa_id'] . '" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></a>
                         <a title="View" href="jawaban_mahasiswa_form.php?act=view&id=' . $row['responden_mahasiswa_id'] . '" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></a>
                         <a onclick="return confirm(\'Apakah anda yakin menghapus data ini?\')" title="Hapus Data" href="responden_mahasiswa_action.php?act=hapus&id='.$row['responden_mahasiswa_id'].'" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
                       </td>

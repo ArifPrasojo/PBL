@@ -107,6 +107,7 @@
                       <td>'.$row['responden_nama'].'</td>
                       <td>'.$row['responden_unit'].'</td>
                       <td>
+                      <a title="View" href="responden_ortu_form.php?act=view&id=' . $row['responden_tendik_id'] . '" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></a>
                         <a title="View" href="responden_tendik_form.php?act=view&id='.$row['responden_tendik_id'].'" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
                         <a onclick="return confirm(\'Apakah anda yakin menghapus data ini?\')" title="Hapus Data" href="responden_tendik_action.php?act=hapus&id='.$row['responden_tendik_id'].'" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
                       </td>

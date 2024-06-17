@@ -11,6 +11,7 @@ if (session_status() === PHP_SESSION_NONE)
 $user = $_GET['bio'];
 $_SESSION['user'] = $user;
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

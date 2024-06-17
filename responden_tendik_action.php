@@ -14,7 +14,7 @@ $surveyid = $survey -> getSurveyId();
         'responden_tanggal' => $_POST['responden_tanggal'], 
         'responden_nopeg' => $_POST['responden_nopeg'],
         'responden_nama' => $_POST['responden_nama'],
-        'responden_prodi' => $_POST['responden_unit']
+        'responden_unit' => $_POST['responden_unit']
     ];
 
     $insert = new tendik_form_model();
@@ -31,7 +31,7 @@ $surveyid = $survey -> getSurveyId();
       'responden_tanggal' => $_POST['responden_tanggal'], 
       'responden_nim' => $_POST['responden_nim'],
       'responden_nama' => $_POST['responden__nama'],
-      'responden_prodi' => $_POST['responden_unit']
+      'responden_unit' => $_POST['responden_unit']
   ];
 
     $update = new tendik_form_model();
